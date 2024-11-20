@@ -1,0 +1,13 @@
+@media (max-width:560px) {
+  nav .searchBar input {
+    height: 2rem;
+    width: 2.5rem;
+    outline: none;
+    border: 1px solid rgb(216, 199, 199);
+    border-radius: 50px;
+    background-color: var(--bgColor);
+    &::placeholder{
+      color: transparent;
+    }
+}
+}
